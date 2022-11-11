@@ -1,0 +1,65 @@
+{
+  "private": true,
+  "dependencies": {
+    "@monaco-editor/react": "^4.4.4",
+    "@testing-library/jest-dom": "^5.16.1",
+    "@testing-library/react": "^12.1.2",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^27.5.0",
+    "@types/node": "^17.0.31",
+    "@types/react": "^18.0.9",
+    "@types/react-dom": "^18.0.3",
+    "axios": "^0.27.2",
+    "codemirror": "^5.65.2",
+    "express": "^4.18.2",
+    "monaco-themes": "^0.4.1",
+    "peer": "^0.6.1",
+    "query-string": "^7.1.1",
+    "react": "^17.0.2",
+    "react-avatar": "^5.0.3",
+    "react-dom": "^17.0.2",
+    "react-hot-toast": "^2.4.0",
+    "react-router-dom": "^6.4.3",
+    "react-scripts": "5.0.0",
+    "react-select": "^5.3.1",
+    "react-toastify": "^9.0.1",
+    "socket.io": "^4.5.3",
+    "socket.io-client": "^4.5.3",
+    "typescript": "^4.6.4",
+    "uuid": "^9.0.0",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start:front": "react-scripts start",
+    "start": "npm run build && npm run server:prod",
+    "build": "react-scripts build",
+    "server:dev": "nodemon server.js",
+    "server:prod": "node server.js",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.7",
+    "nodemon": "^2.0.20",
+    "postcss": "^8.4.13",
+    "tailwindcss": "^3.0.24"
+  }
+}
