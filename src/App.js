@@ -3,6 +3,8 @@ import { Toaster } from 'react-hot-toast';
 import Home from './components/Home';
 import Landing from './components/Landing';
 
+import './App.css'
+
 function App() {
     return (
         <>
