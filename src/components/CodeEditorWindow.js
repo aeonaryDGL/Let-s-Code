@@ -16,8 +16,8 @@ const Editor = ({ socketRef, roomId, onCodeChange, onChange }) => {
       editorRef.current = Codemirror.fromTextArea(
         document.getElementById('realtimeEditor'),
         {
-          mode: 'javascript',
-          theme: 'dracula',
+          mode: 'text/x-c++src',
+          theme: 'eclipse',
           autoCloseTags: true,
           autoCloseBrackets: true,
           lineNumbers: true,
@@ -56,7 +56,7 @@ const Editor = ({ socketRef, roomId, onCodeChange, onChange }) => {
   }, [socketRef.current]);
 
   return (
-    <div className="overlay rounded-md overflow-hidden w-full shadow-4xl border-2px">
+    <div className="w-full shadow-4xl">
       <textarea
         id="realtimeEditor"
         >

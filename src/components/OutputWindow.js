@@ -35,10 +35,10 @@ const OutputWindow = ({ outputDetails }) => {
   };
   return (
     <div className="flex-col w-[40%]">
-      <h1 className="font-bold text-xl bg-clip-text text-transparent bg-gradient-to-r from-slate-900 to-slate-700 mb-2">
+      <h1 className="font-bold text-xl text-[#34454C] mt-2">
         Output
       </h1>
-      <div className="h-[85%] bg-white focus:outline-none border-2 border-black z-10 rounded-md shadow-[5px_5px_0px_0px_rgba(0,0,0)] px-4 py-2 hover:shadow transition duration-200 rounded-md text-white font-normal text-sm overflow-y-auto">
+      <div className="h-[85%] bg-white focus:outline-none border-2 border-[#34454C] z-10 rounded-md px-4 py-2 rounded-md text-white font-normal text-sm overflow-y-auto">
         {outputDetails ? <>{getOutput()}</> : null}
       </div>
     </div>

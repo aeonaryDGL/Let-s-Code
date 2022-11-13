@@ -23,10 +23,10 @@ import OutputDetails from "./OutputDetails";
 import LanguagesDropdown from "./LanguagesDropdown";
 import Client from './Client';
 
-const javascriptDefault = '';
+const Default = '// Viết chương trình của bạn ở đây';
 
 const Landing = () => {
-  const [code, setCode] = useState(javascriptDefault);
+  const [code, setCode] = useState(Default);
   const [customInput, setCustomInput] = useState("");
   const [outputDetails, setOutputDetails] = useState(null);
   const [processing, setProcessing] = useState(null);

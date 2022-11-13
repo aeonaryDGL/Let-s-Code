@@ -41,4 +41,8 @@
   min-height: calc(100vh - 30vh);
   font-size: 18px;
   line-height: 1.6;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #34454C;  
+  border-radius: 7px;
 }
